@@ -1,30 +1,30 @@
-import imageColton from "../assets/images/image-colton.jpg";
-import imageIrene from "../assets/images/image-irene.jpg";
-import imageAnne from "../assets/images/image-anne.jpg";
+import imageFernanda from "../assets/images/image-fernanda.jpg";
+import imagePedro from "../assets/images/image-pedro.jpg";
+import imageCarol from "../assets/images/image-carol.jpg";
 
 export const cardInfos = [
   {
     id: 1,
-    image: imageColton,
-    name: "Colton Smith",
-    role: "Verified Buyer",
+    image: imagePedro,
+    name: "Pedro Dantas",
+    role: "Comprador Verificado",
     description:
-      "We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent",
+      "Precisávamos do mesmo design impresso que havíamos encomendado uma semana antes. Eles não só encontraram o pedido original, como também o recebemos a tempo. Excelente.",
   },
   {
     id: 2,
-    image: imageIrene,
-    name: "Irene Roberts",
-    role: "Verified Buyer",
+    image: imageFernanda,
+    name: "Fernanda Macedo",
+    role: "Comprador Verificado",
     description:
-      "Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.",
+      "O atendimento ao cliente é sempre excelente e o processo muito rápido. Estou completamente satisfeita com a simplicidade da compra e a rapidez da entrega.",
   },
   {
     id: 3,
-    image: imageAnne,
-    name: "Anne Wallace",
-    role: "Verified Buyer",
+    image: imageCarol,
+    name: "Carol Souza",
+    role: "Comprador Verificado",
     description:
-      "Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!",
+      "Fiz um pedido com esta empresa e só tenho elogios para o altíssimo padrão de qualidade. Com certeza voltarei a usar os serviços deles e os recomendo a todos!",
   },
 ];
