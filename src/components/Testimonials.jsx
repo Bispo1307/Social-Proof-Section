@@ -1,6 +1,6 @@
 import { cardInfos } from "../data/index.js";
 
-export default function Testimonials() {
+export const Testimonials = () => {
   return (
     <section className="font-spartan w-full h-auto bg-[url(`../assets/images/bg-pattern-bottom-mobile.svg`)] sm:bg-[url(`../assets/images/bg-pattern-bottom-mobile.svg`)] bg-bottom-right bg-no-repeat bg-cover">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -34,4 +34,4 @@ export default function Testimonials() {
       </div>
     </section>
   );
-}
+};

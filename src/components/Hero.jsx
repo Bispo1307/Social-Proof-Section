@@ -1,6 +1,6 @@
 import starIcon from "../assets/images/icon-star.svg";
 
-export default function Hero() {
+export const Hero = () => {
   return (
     <section className="font-spartan w-full h-auto flex items-center justify-between gap-10 lg:gap-0 flex-col lg:flex-row bg-[url(`../assets/images/bg-pattern-top-mobile.svg`)] sm:bg-[url(`../assets/images/bg-pattern-top-desktop.svg`)] bg-top-left bg-no-repeat bg-cover">
       <div className="max-w-full lg:max-w-md space-y-6 sm:space-y-4">
@@ -53,4 +53,4 @@ export default function Hero() {
       </div>
     </section>
   );
-}
+};
