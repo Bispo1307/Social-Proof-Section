@@ -14,7 +14,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="w-full lg:w-auto space-y-4">
-        <div className="flex items-center flex-col lg:flex-row gap-2 lg:gap-4 space-x-7 bg-light-grayish-magenta py-4 px-8 rounded-lg styck lg:relative right-0 lg:right-24">
+        <div className="flex items-center justify-center lg:justify-start flex-col lg:flex-row gap-2 lg:gap-4 space-x-7 bg-light-grayish-magenta py-4 px-6 sm:px-8 rounded-lg styck lg:relative right-0 lg:right-24">
           <div className="flex items-center justify-center gap-2 mx-auto lg:mx-0">
             <img src={starIcon} alt="Star Icon" />
             <img src={starIcon} alt="Star Icon" />
@@ -22,11 +22,11 @@ export default function Hero() {
             <img src={starIcon} alt="Star Icon" />
             <img src={starIcon} alt="Star Icon" />
           </div>
-          <span className="font-bold text-very-dark-magenta">
+          <span className="font-bold text-very-dark-magenta text-center">
             Avaliado com 5 estrelas em Reviews.
           </span>
         </div>
-        <div className="flex items-center flex-col lg:flex-row gap-2 lg:gap-4 space-x-7 bg-light-grayish-magenta py-4 px-8 rounded-lg styck lg:relative right-0 lg:right-12">
+        <div className="flex items-center justify-center lg:justify-start flex-col lg:flex-row gap-2 lg:gap-4 space-x-7 bg-light-grayish-magenta py-4 px-6 sm:px-8 rounded-lg styck lg:relative right-0 lg:right-12">
           <div className="flex items-center justify-center gap-2 mx-auto lg:mx-0">
             <img src={starIcon} alt="Star Icon" />
             <img src={starIcon} alt="Star Icon" />
@@ -34,11 +34,11 @@ export default function Hero() {
             <img src={starIcon} alt="Star Icon" />
             <img src={starIcon} alt="Star Icon" />
           </div>
-          <span className="font-bold text-very-dark-magenta">
+          <span className="font-bold text-very-dark-magenta text-center">
             Avaliado com 5 estrelas no Report Guru
           </span>
         </div>
-        <div className="flex items-center flex-col lg:flex-row gap-2 lg:gap-4 space-x-7 bg-light-grayish-magenta py-4 px-8 rounded-lg">
+        <div className="flex items-center justify-center lg:justify-start flex-col lg:flex-row gap-2 lg:gap-4 space-x-7 bg-light-grayish-magenta py-4 px-6 sm:px-8 rounded-lg">
           <div className="flex items-center justify-center gap-2 mx-auto lg:mx-0">
             <img src={starIcon} alt="Star Icon" />
             <img src={starIcon} alt="Star Icon" />
@@ -46,7 +46,7 @@ export default function Hero() {
             <img src={starIcon} alt="Star Icon" />
             <img src={starIcon} alt="Star Icon" />
           </div>
-          <span className="font-bold text-very-dark-magenta">
+          <span className="font-bold text-very-dark-magenta text-center">
             Avaliado com 5 estrelas pela BestTech
           </span>
         </div>

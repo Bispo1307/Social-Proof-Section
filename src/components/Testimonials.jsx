@@ -35,5 +35,3 @@ export default function Testimonials() {
     </section>
   );
 }
-
-// w352 h236
